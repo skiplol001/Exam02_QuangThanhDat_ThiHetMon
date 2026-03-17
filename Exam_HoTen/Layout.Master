@@ -1,11 +1,10 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.master.cs" Inherits="Exam_HoTen.Layout" %>
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="scripts/jquery-3.0.0.min.js"></script>
     <script src="scripts/popper.min.js"></script>
     <script src="scripts/bootstrap.bundle.min.js"></script>
@@ -21,10 +20,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link 1</a>
+                        <a class="nav-link" href="XemTour.aspx">Xem tour</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Link 2</a>
+                        <a class="nav-link" href="QTTour.aspx"> Quản trị tour</a>
                     </li>
                 </ul>
             </div>
@@ -36,7 +35,7 @@
         </div>
 
         <div class="alert alert-secondary text-center">
-            <b>Họ Tên:</b> Lê Văn A <b>MSSV: </b> 2221160063
+            <b>Họ Tên:</b> Quảng Thành Đạt <b>MSSV: </b> 2421160045
         </div>
     </form>
 </body>
